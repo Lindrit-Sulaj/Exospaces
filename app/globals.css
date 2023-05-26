@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero-bg {
+  background-image: url('https://ik.imagekit.io/0s9lwb2yr/Furniture/Furniture_Hero_SYTBN5lTyN.png?updatedAt=1684956962879');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}

@@ -1,7 +1,9 @@
+import { Hero } from "@/containers"
+
 export default function Home() {
   return (
     <main>
-      Hello world
+      <Hero />
     </main>
   )
 }
