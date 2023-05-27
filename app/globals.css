@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  max-height: 100%;
+}
+
 .hero-bg {
   background-image: url('https://ik.imagekit.io/0s9lwb2yr/Furniture/Furniture_Hero_SYTBN5lTyN.png?updatedAt=1684956962879');
   background-position: center;
