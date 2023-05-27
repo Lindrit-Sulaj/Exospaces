@@ -19,9 +19,9 @@ export default function Projects() {
           <p className='mt-auto text-slate-300'>Phil Jackson</p>
         </div>
       </div>
-      <div>
+      <div className='lg:hidden'>
         <h2 className='text-2xl md:text-3xl mt-4 font-bold mb-4'>Gallery</h2>
-        <div className='grid lg:hidden grid-cols-1 md:grid-cols-2 gap-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
           <img className='h-[200px] md:h-[300px] object-cover w-full' src="https://ik.imagekit.io/0s9lwb2yr/Exospaces/pexels-photo-5915141_G0deJ1Ova.jpegauto_compress_cs_tinysrgb_w_1600?updatedAt=1685211637887" alt="" />
           <img className='h-[200px] md:h-[300px] object-cover w-full' src="https://images.pexels.com/photos/8191962/pexels-photo-8191962.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
           <img className='h-[200px] md:h-[300px] object-cover w-full' src="https://images.pexels.com/photos/1181625/pexels-photo-1181625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
