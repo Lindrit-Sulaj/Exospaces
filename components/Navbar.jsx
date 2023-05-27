@@ -11,7 +11,7 @@ export default function Navbar() {
   const close = () => setOpened(false);
 
   return (
-    <nav className='fixed px-6 top-0 w-full h-[70px]'>
+    <nav className='fixed px-6 top-0 w-full bg-white border-solid md:border-none border-b-[1px] border-b-neutral-200 h-[70px]'>
       <div className="max-w-screen-web mx-auto flex justify-between h-full items-center">
         <h2 className='font-bold text-lg md:text-xl flex gap-2'>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-custom-orange">
@@ -26,9 +26,8 @@ export default function Navbar() {
           <li className='text-neutral-500'><a href="#">Events</a></li>
           <li className='text-neutral-500'><a href="#">Plans</a></li>
           <li className='text-neutral-800 font-medium ml-4'>
-            <a href="#" className='flex gap-2 items-center'>
-              <i className="fa-solid fa-phone"></i>
-              <span>Contact Us</span>
+            <a href="#" className='bg-custom-green px-5 py-[10px] text-white'>
+              Contact Us
             </a>
           </li>
         </ul>
