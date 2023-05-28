@@ -42,8 +42,8 @@ function Article({ title, image, author, date }) {
   return (
     <div>
       <img className='w-full object-cover h-[200px]' src={image} alt={title} />
-      <p className='font-medium text-neutral-300 mt-4'>{date}</p>
-      <h5 className='font-semibold text-lg mt-3'>{title}</h5>
+      <p className='font-medium text-[15px] md:text-base text-neutral-300 mt-4'>{date}</p>
+      <h5 className='font-semibold md:text-lg mt-2 md:mt-3'>{title}</h5>
       <p className='mt-2 text-sm md:text-base'>By: <span className='text-neutral-300'>{author}</span></p>
     </div>
   )

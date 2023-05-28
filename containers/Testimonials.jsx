@@ -88,10 +88,10 @@ function Testimonial({ image, text, name, company }) {
     <div className='px-6 py-8 border-solid flex flex-col border-[1px] border-neutral-100'>
       <div className="flex justify-end"><i className="fa-solid fa-quote-left fa-xl text-custom-orange"></i></div>
       <img className='w-14 h-14 rounded-full object-cover' src={image} alt={name} />
-      <p className='mt-4 text-neutral-600'>"{text}"</p>
+      <p className='mt-4 text-[15px] md:text-base text-neutral-600'>"{text}"</p>
       <div className='mt-4'>
         <p className='font-semibold text-[17px]'>{name}</p>
-        <p className='text-neutral-500 font-medium'>{company}</p>
+        <p className='text-neutral-500 text-[15px] md:text-base font-medium'>{company}</p>
       </div>
     </div>
   )

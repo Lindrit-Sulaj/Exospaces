@@ -27,8 +27,8 @@ export default function Projects() {
           <img className='h-[200px] md:h-[300px] object-cover w-full' src="https://images.pexels.com/photos/1181625/pexels-photo-1181625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
           <img className='h-[200px] md:h-[300px] object-cover w-full' src="https://images.pexels.com/photos/15599167/pexels-photo-15599167/free-photo-of-laptop-on-desk-in-office.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
           <div className="md:col-span-2 bg-custom-green text-white px-6 py-6 md:px-10 md:py-8">
-            <p className='text-lg md:text-[20px] mb-4 font-semibold max-w-xl'><span className='text-slate-400 font-extrabold'>"</span>The <span className='text-emerald-400'>strength</span> of the team is each individual member. The <span className='text-emerald-400'>strength</span> of each member is the team.<span className='text-slate-400 font-extrabold'>"</span></p>
-            <p className='mt-auto text-slate-300'>Phil Jackson</p>
+            <p className='text-[17px] md:text-[20px] mb-4 font-semibold max-w-xl'><span className='text-slate-400 font-extrabold'>"</span>The <span className='text-emerald-400'>strength</span> of the team is each individual member. The <span className='text-emerald-400'>strength</span> of each member is the team.<span className='text-slate-400 font-extrabold'>"</span></p>
+            <p className='mt-auto text-[15px] md:text-base text-slate-300'>Phil Jackson</p>
           </div>
         </div>
       </div>

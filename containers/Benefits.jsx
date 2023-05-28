@@ -39,11 +39,11 @@ export default function Benefits() {
 
 function Benefit({ icon, title, description }) {
   return (
-    <div className='flex flex-col md:flex-row items-center gap-4 bg-neutral-50 border-solid border-[1px] border-neutral-100 py-8 md:py-3 px-6'>
+    <div className='flex flex-col lg:flex-row items-center gap-4 bg-neutral-50 border-solid border-[1px] border-neutral-100 py-8 lg:py-3 px-6'>
       <i className={`${icon} fa-xl text-custom-orange`}></i>
       <div>
-        <h5 className='font-semibold text-lg text-center md:text-left'>{title}</h5>
-        <p className='text-neutral-600 mt-1 max-w-md text-center md:text-left'>{description}</p>
+        <h5 className='font-semibold text-[17px] md:text-lg text-center lg:text-left'>{title}</h5>
+        <p className='text-neutral-600 text-[15px] md:text-base mt-1 max-w-md text-center lg:text-left'>{description}</p>
       </div>
     </div>
   )
