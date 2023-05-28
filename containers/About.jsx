@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className='max-w-screen-web mx-auto my-14 flex flex-wrap lg:flex-nowrap gap-8 px-6 md:px-8 xl:px-2 items-center justify-center lg:justify-start'>
+    <section className='max-w-screen-web mx-auto mt-14 mb-14 lg:mb-20 flex flex-wrap lg:flex-nowrap gap-8 px-6 md:px-8 xl:px-2 items-center justify-center lg:justify-start'>
       <div className='w-full lg:w-1/2'>
         <p className='uppercase text-neutral-500 font-medium text-center lg:text-left'>About Exospaces</p>
         <h2 className='text-2xl md:text-3xl mt-4 font-bold text-center lg:text-left'>More Productivity, <br /> Less Burn Out.</h2>

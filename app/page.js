@@ -1,4 +1,4 @@
-import { Hero, About, Projects, Testimonials } from "@/containers"
+import { Hero, About, Projects, Testimonials, Blog } from "@/containers"
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
+      <Blog />
       <Testimonials />
     </main>
   )
