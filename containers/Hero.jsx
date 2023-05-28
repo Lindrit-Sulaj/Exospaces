@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className='pt-[70px]'>
       <div className='max-w-screen-web px-6 xl:px-0 mx-auto flex flex-wrap lg:flex-nowrap items-center gap-y-4 gap-x-8 pt-6 pb-8 md:pt-10 md:pb-14'>
-        <h1 className='font-bold text-[27px] leading-10 md:text-4xl lg:text-[40px] lg:leading-[50px] lg:w-1/2'>Discover <span className='text-custom-green'>Inspiring</span> Workspaces for Success</h1>
+        <h1 className='font-bold text-[25px] leading-10 md:text-4xl lg:text-[40px] lg:leading-[50px] lg:w-1/2'>Discover <span className='text-custom-green'>Inspiring</span> Workspaces for Success</h1>
         <p className='lg:w-1/2 text-neutral-600 text-[15px] md:text-base'>Uncover inspiring workspaces that ignite your potential. From dynamic environments to flexible solutions, find the perfect space to thrive and achieve your business goals. Step into a world of success and growth.</p>
       </div>
       <div style={{
