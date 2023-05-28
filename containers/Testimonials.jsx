@@ -86,7 +86,7 @@ export default function Testimonials() {
 function Testimonial({ image, text, name, company }) {
   return (
     <div className='px-6 py-8 border-solid flex flex-col border-[1px] border-neutral-100'>
-      <div className="flex justify-end"><i className="fa-solid fa-quote-left fa-xl text-neutral-200"></i></div>
+      <div className="flex justify-end"><i className="fa-solid fa-quote-left fa-xl text-custom-orange"></i></div>
       <img className='w-14 h-14 rounded-full object-cover' src={image} alt={name} />
       <p className='mt-4 text-neutral-600'>"{text}"</p>
       <div className='mt-4'>

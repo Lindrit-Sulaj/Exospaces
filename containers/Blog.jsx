@@ -26,9 +26,9 @@ export default function Blog() {
   return (
     <section className='my-16 px-6 md:px-8 bg-custom-green py-14 text-white'>
       <div className='max-w-screen-web mx-auto'>
-        <p className='uppercase font-medium text-emerald-400 text-center lg:text-left'>Blog</p>
-        <h2 className='text-2xl md:text-3xl mt-4 font-bold text-center lg:text-left'>Explore our blog <span className="text-emerald-400">diverse</span> articles</h2>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6'>
+        <p className='uppercase font-medium text-emerald-400'>Blog</p>
+        <h2 className='text-2xl md:text-3xl mt-2 font-bold'>Explore our blog <span className="text-emerald-400">diverse</span> articles</h2>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8'>
           {articles.map(article => (
             <Article key={article.title} {...article} />
           ))}

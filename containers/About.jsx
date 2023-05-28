@@ -5,7 +5,7 @@ export default function About() {
     <section className='max-w-screen-web mx-auto mt-14 mb-14 lg:mb-20 flex flex-wrap lg:flex-nowrap gap-8 px-6 md:px-8 xl:px-2 items-center justify-center lg:justify-start'>
       <div className='w-full lg:w-1/2'>
         <p className='uppercase text-neutral-500 font-medium text-center lg:text-left'>About Exospaces</p>
-        <h2 className='text-2xl md:text-3xl mt-4 font-bold text-center lg:text-left'>More Productivity, <br /> Less Burn Out.</h2>
+        <h2 className='text-2xl md:text-3xl mt-3 font-bold text-center lg:text-left'>More Productivity, <br /> Less Burn Out.</h2>
         <p className='mt-4 text-neutral-600 text-center lg:text-left w-full md:w-4/5 mx-auto text-[15px] md:text-base lg:w-full'>
           At Exospaces, we are dedicated to providing exceptional workspaces tailored to your business needs. With a focus on fostering collaboration and innovation, our thoughtfully designed offices offer a conducive environment for growth. Experience a seamless and inspiring workplace that fuels your success story.
         </p>
